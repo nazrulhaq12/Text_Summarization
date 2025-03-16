@@ -7,16 +7,20 @@ This project implements an **Extractive Text Summarization** system using modern
 ## **Project Structure**  
 ```
 📂 Text_Summarization
-├── 📂 app.py                  # FastAPI application to serve the summarization endpoint
+├── 📂 __pycache_
+    |── app.cpython-310.pyc
 ├── 📂 utils
-│   ├── feature_extraction.py  # TF-IDF and BERT-based embeddings
-│   ├── preprocessing.py       # Text cleaning, tokenization, lemmatization
-│   ├── sentence_ranking.py    # PageRank-based sentence ranking
-│   └── evaluation.py          # ROUGE score evaluation
-├── 📂 env                     # Virtual environment files
+│   ├── feature_extraction.py
+│   ├── preprocessing.py
+│   ├── sentence_ranking.py
+│   └── evaluation.py
+├── 📂 env
+├── app.py
+├── main.py
 ├── .gitignore
-├── requirements.txt           # Required dependencies
+├── requirements.txt
 └── README.md
+
 ```
 
 ---
