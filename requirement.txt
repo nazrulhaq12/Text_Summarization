@@ -1,0 +1,11 @@
+NumPy - 2.2.3
+scikit-learn - 1.6.1
+nltk - 3.9.1
+spaCy - 3.8.4
+transformers - 4.49.0
+TensorFlow - 2.19.0
+Torch - 2.6.0
+FastAPI - 0.115.11
+Uvicorn - 0.34.0
+Rouge-score - 0.1.2
+NetworkX - 3.4.2
